@@ -1,0 +1,47 @@
+* {
+  background: scroll;
+  background-color: cadetblue;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  font-size: 45px;
+  text-align: center;
+  padding: 10px;
+}
+
+.Recipes {
+  text-align: left;
+  width: 50%;
+  height: auto;
+  position: absolute;
+  margin: auto auto;
+
+  /* center ul */
+  margin-left: 34%;
+  padding: 0;
+  list-style: none;
+}
+
+.Recipes li {
+  margin-bottom: 20px;
+  padding: 10px;
+  height: auto;
+  width: auto;
+  justify-content: left;
+}
+
+.recipe {
+  color: brown;
+  font-size: 30px;
+  font-family: cursive;
+
+  /* Justify text */
+  text-align: justify;
+  text-justify: inter-word;
+
+  /* center li */
+  margin-left: 0%;
+  text-align: center;
+}
