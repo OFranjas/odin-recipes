@@ -6,8 +6,9 @@
 h1 {
   font-family: "Courier New", Courier, monospace;
   color: black;
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
+  padding: 10px;
 }
 
 .Recipes {
@@ -23,9 +24,17 @@ h1 {
   list-style: none;
 }
 
+.Recipes li {
+  margin-bottom: 20px;
+  padding: 10px;
+  height: auto;
+  width: auto;
+  justify-content: left;
+}
+
 .recipe {
   color: brown;
-  font-size: 25px;
+  font-size: 30px;
   font-family: cursive;
 
   /* Justify text */
@@ -33,6 +42,98 @@ h1 {
   text-justify: inter-word;
 
   /* center li */
-  margin-left: 10%;
+  margin-left: 0%;
   text-align: center;
+}
+
+.recipe-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: auto;
+  border-radius: 20px;
+  border: 5px solid black;
+}
+
+.description {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  font-weight: bolder;
+  color: saddlebrown;
+}
+
+.description.text {
+  font-family: "Sans Serif", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: black;
+  border: 5px solid grey;
+  border-radius: 20px;
+
+  /* center text */
+  text-align: left;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 10px;
+  height: auto;
+  width: auto;
+  justify-content: left;
+}
+
+.ingredients {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  font-weight: bolder;
+  color: saddlebrown;
+}
+
+.ingredients.list {
+  font-family: "Sans Serif", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: black;
+  text-align: left;
+  width: 40%;
+  height: auto;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  /* Separate items from each other */
+  padding: 10px;
+  height: auto;
+}
+
+.ingredients.list li {
+  margin-bottom: 10px;
+}
+
+.steps {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  font-weight: bolder;
+  color: saddlebrown;
+}
+
+.steps.list {
+  font-family: "Sans Serif", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: black;
+  text-align: left;
+  width: 40%;
+  height: auto;
+  margin-left: 30%;
+  margin-right: 35%;
+}
+
+.steps.list li {
+  margin-bottom: 20px;
+  padding: 10px;
+  height: auto;
+  width: auto;
+  justify-content: left;
 }
