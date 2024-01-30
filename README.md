@@ -2,4 +2,6 @@
 
 A basic recipe website.
 
-The website will consist of a main index page which will have links to a few recipes.
+The website consists of a main index page which will have links to a few recipe pages.
+
+This project is part of the Odin Project curriculum and was created to practice basic HTML skills.
