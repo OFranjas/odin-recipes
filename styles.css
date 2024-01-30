@@ -1,0 +1,38 @@
+* {
+  background: scroll;
+  background-color: cadetblue;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+}
+
+.Recipes {
+  text-align: left;
+  width: 50%;
+  height: auto;
+  position: absolute;
+  margin: auto auto;
+
+  /* center ul */
+  margin-left: 34%;
+  padding: 0;
+  list-style: none;
+}
+
+.recipe {
+  color: brown;
+  font-size: 25px;
+  font-family: cursive;
+
+  /* Justify text */
+  text-align: justify;
+  text-justify: inter-word;
+
+  /* center li */
+  margin-left: 10%;
+  text-align: center;
+}
