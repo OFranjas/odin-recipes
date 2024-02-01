@@ -1,47 +1,40 @@
 * {
   background: scroll;
-  background-color: cadetblue;
+  background-color: #91f9e5;
+}
+
+.Title {
+  margin: 10px auto;
+  width: 50%;
+  height: auto;
+  padding: 10px 0px;
+  text-align: center;
 }
 
 h1 {
+  color: #499167;
   font-family: "Courier New", Courier, monospace;
-  color: black;
   font-size: 45px;
-  text-align: center;
-  padding: 10px;
 }
 
 .Recipes {
-  text-align: left;
+  margin: 0px auto;
   width: 50%;
   height: auto;
-  position: absolute;
-  margin: auto auto;
+}
 
-  /* center ul */
-  margin-left: 34%;
-  padding: 0;
+.Recipes-list {
   list-style: none;
+  padding-right: 50px;
+  text-align: center;
 }
 
 .Recipes li {
-  margin-bottom: 20px;
-  padding: 10px;
-  height: auto;
-  width: auto;
-  justify-content: left;
+  margin-bottom: 24px;
 }
 
-.recipe {
-  color: brown;
+.recipe-link {
+  color: #3f4531;
   font-size: 30px;
   font-family: cursive;
-
-  /* Justify text */
-  text-align: justify;
-  text-justify: inter-word;
-
-  /* center li */
-  margin-left: 0%;
-  text-align: center;
 }
