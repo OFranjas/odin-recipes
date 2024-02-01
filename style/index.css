@@ -3,9 +3,9 @@
   background-color: #91f9e5;
 }
 
-.Title {
+.title {
   margin: 10px auto;
-  width: 50%;
+  width: 100%;
   height: auto;
   padding: 10px 0px;
   text-align: center;
@@ -14,27 +14,27 @@
 h1 {
   color: #499167;
   font-family: "Courier New", Courier, monospace;
-  font-size: 45px;
+  font-size: 50px;
 }
 
-.Recipes {
+.recipes {
   margin: 0px auto;
   width: 50%;
   height: auto;
 }
 
-.Recipes-list {
+.recipes-list {
   list-style: none;
   padding-right: 50px;
   text-align: center;
 }
 
-.Recipes li {
+.recipes li {
   margin-bottom: 24px;
 }
 
-.recipe-link {
-  color: #3f4531;
+.recipes a {
+  color: #46351d;
   font-size: 30px;
   font-family: cursive;
 }
