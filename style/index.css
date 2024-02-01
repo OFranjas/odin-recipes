@@ -3,11 +3,23 @@
   background-color: #91f9e5;
 }
 
+.logo {
+  margin: 20px auto;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.logo img {
+  width: 25%;
+  height: auto;
+}
+
 .title {
   margin: 10px auto;
   width: 100%;
   height: auto;
-  padding: 10px 0px;
+
   text-align: center;
 }
 

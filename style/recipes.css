@@ -1,24 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 
 * {
   background: scroll;
   background-color: #91f9e5;
 }
 
+.logo {
+  margin: 10px auto;
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
+
+.logo img {
+  width: 20%;
+  height: auto;
+}
+
 .title {
-  margin: 0px auto;
+  margin: 10px auto;
   width: 100%;
   height: auto;
-  padding: 10px 0px;
   text-align: center;
-  margin-top: 10px;
 }
 
 .title h1 {
   color: #499167;
   font-family: "Courier New", Courier, monospace;
   font-size: 50px;
+  margin-top: 20px;
 }
 
 .image-frame {
